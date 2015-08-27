@@ -5,8 +5,12 @@ require_once('common_include.php');
 <html>
 <head>
     <title><?php echo TITLE ?></title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msapplication-TileImage" content="tile-144.png">
+    <meta name="msapplication-TileColor" content="#FC0204">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
     <style>
         * {
             font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
@@ -18,7 +22,6 @@ require_once('common_include.php');
             margin-top: 5px;
             width: 100%;
         }
-
         table.tb tr:first-child td {
             padding: 10px;
         }
