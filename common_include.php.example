@@ -1,0 +1,4 @@
+<?php
+
+define("TITLE", "Dat laundry");
+define("SCRAPE_URL", "http://dat.url/should?be=scraped");
